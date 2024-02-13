@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --base-color:194;
+    --primary-color:  hsl(var(--base-color), 100%, 63%);
+    --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
+    --bg-color: #121214;
+    --text-color:#ffffff;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: grid;
+    min-height: 100vh;
+}
+
+footer{
+    align-self: end;
+    justify-self: end;
+    padding: 0 4rem 3.2rem 0;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+color: #e2dfdf;
+}
+button i{
+    font-size:calc(5.8rem + 0.4vw);
+}
+.hide{
+    display: none;
+}
+
+.play i ,
+.pause i,
+.sound-on i{
+color:var(--primary-color)
+
+}
+
+
+
+
+
+.container{
+   display: grid;
+}
+
+
+
+.card {
+    margin: auto;
+display: flex;
+    width: 300px;
+    height: 300px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);
+    border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
+  .infotop {
+text-align: center;
+
+  }
+
+  .infotop h1{
+    color: rgb(255, 0, 242);
+font-size: 30px;
+margin-top: 40px;
+  }
+  .infotop h2{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .infotop p{
+    margin-top: -10px;
+    font-size: 17px;
+  }
+
+  .textMOtivationspas{
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+
+    margin: auto;
+  }
+  #motivation{
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+font-size: 12px;
+  }
+  .name{
+    color: rgb(255, 0, 242);
+    margin-top: 20px;
+    font-size: 15px;
+  }

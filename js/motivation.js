@@ -24,7 +24,7 @@ function atualizarMensagemDiaria() {
         "02-16": "19-21",
         "02-17": "22-24",
         "02-18": "25-27",
-        "02-19": "28-30",
+        "02-19": "No começo de cada mês, vocês apresentarão a Jeová como oferta queimada dois novilhos, um carneiro e sete cordeiros sadios de um ano.",
         "02-20": "31-32",
         "02-21": "33-36",
         // ... Deuteronômio

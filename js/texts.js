@@ -81,6 +81,47 @@ function atualizarMensagemDiaria() {
 
     
                     // ... Fevereiro
+
+                    // ...  Março
+
+                    "03-01": { livro: "Deuteronômio", capitulo: "23-26" },
+                    "03-02": { livro: "Deuteronômio", capitulo: "27-28" },
+                    "03-03": { livro: "Deuteronômio", capitulo: "29-31" },
+                    "03-04": { livro: "Deuteronômio", capitulo: "32" },
+                    "03-05": { livro: "Deuteronômio", capitulo: "33-34" },
+                    "03-06": { livro: "Josué", capitulo: "1-4" },
+                    "03-07": { livro: "Josué", capitulo: "5-7" },
+                    "03-08": { livro: "Josué", capitulo: "8-9" },
+                    "03-09": { livro: "Josué", capitulo: "10-12" },
+                    "03-10": { livro: "Josué", capitulo: "13-15" },
+                    "03-11": { livro: "Josué", capitulo: "16-18" },
+                    "03-12": { livro: "Josué", capitulo: "19-21" },
+                    "03-13": { livro: "Josué", capitulo: "22-24" },
+                    "03-14": { livro: "Juízes", capitulo: "1-2" },
+                    "03-15": { livro: "Juízes", capitulo: "3-5" },
+                    "03-16": { livro: "Juízes", capitulo: "6-7" },
+                    "03-17": { livro: "Juízes", capitulo: "8-9" },
+                    "03-18": { livro: "Juízes", capitulo: "10-11" },
+                    "03-19": { livro: "Juízes", capitulo: "12-13" },
+                    "03-20": { livro: "Juízes", capitulo: "14-16" },
+                    "03-21": { livro: "Juízes", capitulo: "17-19" },
+                    "03-22": { livro: "Juízes", capitulo: "20-21" },
+                    "03-23": { livro: "Rute", capitulo: "1-4" },
+                    "03-24": { livro: "1 Samuel", capitulo: "1-2" },
+                    "03-25": { livro: "1 Samuel", capitulo: "3-6" },
+                    "03-26": { livro: "1 Samuel", capitulo: "7-9" },
+                    "03-27": { livro: "1 Samuel", capitulo: "10-12" },
+                    "03-28": { livro: "1 Samuel", capitulo: "13-14" },
+                    "03-29": { livro: "1 Samuel", capitulo: "15-16" },
+                    "03-30": { livro: "1 Samuel", capitulo: "17-18" },
+                    "03-31": { livro: "1 Samuel", capitulo: "19-21" },
+
+
+
+
+
+
+                    // ...  Março
         // Adicione mais leituras conforme necessário
     };
     const formatoData = (data) => {
